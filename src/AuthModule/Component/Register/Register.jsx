@@ -16,7 +16,7 @@ let response = await axios.post("https://upskilling-egypt.com:3006/api/v1/Users/
 console.log(response);
 
 toast.success("Thank You For Registr")
-navigate("/login");
+navigate("/verify-account");
     }
     catch(error){
       toast.error(error.response.message)

@@ -82,7 +82,7 @@ toast.error(message,
                      />
                    </div>
                     {
-                    errors.number &&<div className="alert alert-danger">{errors.seed.message}</div>
+                    errors.seed &&<div className="alert alert-danger">{errors.seed.message}</div>
 
                    }
                      <div className="input-group mb-3">
